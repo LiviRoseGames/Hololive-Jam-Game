@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0ix83mydqyrp"]
+
+[ext_resource type="PackedScene" uid="uid://dnxcaoqer3b4i" path="res://scenes/boss.tscn" id="1_siejl"]
+
+[node name="BossRoom" type="Node2D"]
+
+[node name="Boss" parent="." instance=ExtResource("1_siejl")]
+position = Vector2(577, 265)
+alpha = 2.321
